@@ -1,0 +1,74 @@
+/* Reset de estilos e estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background:#fff;
+    color: #008839;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+ 
+
+section h2 {
+    font-size: 1.8rem;
+    color: #008839;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+.icone {
+    max-width: 30%;
+    padding: 2% 2% 2% 2% ;
+    border-radius: 50%;
+    background-color: #008839;
+    }
+
+.icone:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(43, 46, 45, 0.5);
+}
+
+#visitavirtual{
+    text-align: center;
+    
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #008839;
+    color: #fff;
+}
+
+footer p {
+    font-size: 0.9rem;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="agenda.css">
+</head>
+<body>
+    <header id="paginas">
+        <a href="/index.html"><img src="imagens/logo.png" alt="logo Aeroclube do Paraná"></a>
+        <h1>Agendamento de Visitas</h1>
+    </header>  
+
+ 
+    <section>
+        <h2>Agende sua visita ao Museu do Aeroclube do Paraná!</h2>
+        
+        <p>Estamos ansiosos para recebê-lo em nossa instituição dedicada à preservação e celebração da história da aviação. Utilize o formulário abaixo para agendar sua visita e explorar de perto nossa coleção de aeronaves, exposições interativas e histórias que marcaram nossa trajetória.
+
+Preencha seus dados e escolha a data mais conveniente para você. Nossa equipe entrará em contato para confirmar sua visita e proporcionar uma experiência única no mundo da aviação.
+
+Prepare-se para decolar em uma jornada emocionante pelo passado e presente da aviação!</p>
+  
+</section>
+
+<section class="formulario">
+        <form action="#" method="POST">
+            <div class="campo">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" id="sobrenome" name="sobrenome" required>
+            </div>
+
+            <div class="campo">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="campo">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+            </div>
+
+            <div class="campo">
+                <label for="data">Data de Visita:</label>
+                <input type="date" id="data" name="data" required>
+            </div>
+
+            <div class="campo">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+            </div>
+
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
+     <footer>
+        <p>&copy; 2025 Museu do Aeroclube do Paraná. Todos os direitos reservados.</p>
+    </footer>
+
+    
+</body>
+</html>
